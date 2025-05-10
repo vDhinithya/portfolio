@@ -23,7 +23,6 @@ Bootstrap: Frontend framework for responsive, mobile-first design.
 
 JavaMailSender: For sending contact form submissions to my email.
 
-# Preview 
 ## 📸 Preview
 
 ![Portfolio Screenshot](src/main/resources/static/assets/images/prj-3.png)
