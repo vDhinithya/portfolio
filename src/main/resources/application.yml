@@ -1,0 +1,20 @@
+server:
+  port: 4412
+
+spring:
+  thymeleaf:
+    cache: false
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: vdhinithya@gmail.com
+    password: piyeijnnoizgphkh
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
