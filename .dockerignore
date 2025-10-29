@@ -1,0 +1,24 @@
+# Maven build directories
+target/
+
+# IntelliJ IDEA / VSCode settings
+.idea/
+.vscode/
+*.iml
+
+# Git metadata
+.git
+.gitignore
+
+# Docker files
+docker-compose.yml
+
+# OS & editor junk
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Environment & credentials
+.env
+*.env

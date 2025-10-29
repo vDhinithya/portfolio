@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  portfolio:
+    build: .
+    container_name: portfolio
+    ports:
+      - "4412:4412"
+    environment:
+      SPRING_MAIL_USERNAME: ${SPRING_MAIL_USERNAME}
+      SPRING_MAIL_PASSWORD: ${SPRING_MAIL_PASSWORD}
