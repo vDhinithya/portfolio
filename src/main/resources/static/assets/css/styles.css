@@ -11732,3 +11732,49 @@ html {
     left: -2vw;
   }
 }
+/* 1. Add a class to the container or use the existing structure */
+.profile-img-container {
+    overflow: hidden; /* Ensures the image doesn't spill out when zooming */
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* 2. The Hover Effect */
+.profile-img-container:hover {
+    transform: scale(1.05); /* Scales the image up by 5% */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Adds a nice shadow */
+}
+
+.profile-img {
+    transition: transform 0.5s ease;
+}
+
+/* Optional: Rotate the image slightly on hover for more dynamism */
+.profile-img-container:hover .profile-img {
+    transform: scale(1.1);
+}/* 1. Add a class to the container or use the existing structure */
+ .profile-img-container {
+     overflow: hidden; /* Ensures the image doesn't spill out when zooming */
+     border-radius: 50%;
+     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+ }
+
+ /* 2. The Hover Effect */
+ .profile-img-container:hover {
+     transform: scale(1.05); /* Scales the image up by 5% */
+     box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Adds a nice shadow */
+ }
+
+ .profile-img {
+     transition: transform 0.5s ease;
+ }
+
+ /* Optional: Rotate the image slightly on hover for more dynamism */
+ .profile-img-container:hover .profile-img {
+     transform: scale(1.1);
+ }
+ .profile-img-container {
+     border-radius: 50%;
+     border: 4px transparent; /* Invisible border to start */
+     transition: all 0.3s ease-in-out;
+ }
